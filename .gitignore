@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+backend/.npm-cache/
+frontend/.npm-cache/
+
+# Build output
+dist/
+backend/dist-scripts/
+build/
+coverage/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Logs and local state
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
